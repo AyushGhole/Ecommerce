@@ -1,0 +1,43 @@
+.background {
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+
+.all{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  width: 1.8rem;
+  padding-left: 0.5rem;
+  margin-left: 0.3rem;
+}
+
+.unordered{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  margin-left: 0.51rem;
+  margin-top: 0.2rem;
+  font-size: 0.9rem;
+}
+
+@media  (max-width:863px) {
+   .background{
+    height: 1.5rem;
+   }
+   .all{
+     visibility: hidden;
+   }
+   .unordered{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 0.5rem;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+
+}
+

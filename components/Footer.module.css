@@ -1,0 +1,27 @@
+
+.background{
+  background-color: #232f3e;
+  padding: 12px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.para{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.back{
+  background-color: #283847;
+  text-align: center;
+
+}
+
+.back1{
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width:) {
+  
+}
